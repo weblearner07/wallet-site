@@ -1,0 +1,22 @@
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    outline: 1px solid black;
+}
+caption{
+    font-size: 16px;
+    font-weight: bold;
+}
+table{
+    margin: auto;
+
+    overflow-y: scroll;
+}
+tr:nth-child(even){
+    background-color: #68dfe7;
+}
+tr{
+    background-color: #e7ebea;
+}
